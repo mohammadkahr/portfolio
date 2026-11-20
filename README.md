@@ -13,7 +13,6 @@ A bilingual developer portfolio built with Vue 3, Vite, and Tailwind CSS v4. One
 - Static HTML generation with Vite SSG, canonical URLs, language alternates, structured data, sitemap, and robots.txt.
 - English and Persian PDF resumes generated from profile data, with resume-only overrides and automatic size adjustment.
 - Generated social preview image, self-hosted fonts, keyboard navigation, and reduced-motion support.
-- GitHub Actions workflow for building and deploying to GitHub Pages.
 
 ## Preview
 
@@ -21,7 +20,7 @@ A bilingual developer portfolio built with Vue 3, Vite, and Tailwind CSS v4. One
 
 ## Run locally
 
-Use Node.js 22 (the version used in CI) and npm.
+Use Node.js 22 and npm.
 
 ```sh
 npm ci
@@ -75,7 +74,7 @@ Normal development and production builds regenerate the PDFs, preserving the web
 | Environment variable | Purpose |
 | --- | --- |
 | `CHROMIUM_PATH` | Use an installed Chrome/Chromium executable. |
-| `RESUME_STRICT=1` | Fail if PDF generation fails or content cannot fit on one page; enabled in CI. |
+| `RESUME_STRICT=1` | Fail if PDF generation fails or content cannot fit on one page; recommended for automated builds. |
 | `SKIP_RESUME=1` | Skip automatic generation; existing PDFs must be supplied separately if downloads are needed. |
 
 The profile is public website content, including fields used only in resume overrides. Excluding generated PDFs from Git does not make their source data private. Production builds publish downloadable resumes.
@@ -93,5 +92,4 @@ scripts/resume/              PDF and social image generation
 scripts/seo.mjs              Static routes, sitemap, robots, and 404 output
 scripts/validate-profile.mjs Profile validation
 public/                      Images and publication assets
-.github/workflows/deploy.yml GitHub Pages build and deployment
 ```

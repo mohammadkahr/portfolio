@@ -8,7 +8,8 @@ import { useProfile } from './useProfile.js'
 const site = String(profile.meta?.siteUrl ?? '').replace(/\/$/, '')
 // Pages are pre-rendered as nested index.html files, so canonical URLs end in "/".
 const withSlash = (p) => (p.endsWith('/') ? p : `${p}/`)
-const abs = (p) => (/^https?:/.test(p) ? p : site + withSlash(p))
+const abs = (p) => (/^https?:/.test(p) ? p : site + p)
+const pageUrl = (p) => abs(withSlash(p))
 
 /**
  * Per-page head: title, description, canonical, hreflang alternates,
@@ -24,15 +25,15 @@ export function useSeo(options = {}) {
     return t ? `${t} — ${data.value.personal.name}` : data.value.seo.title
   })
   const description = computed(() => unref(options.description) || data.value.seo.description)
-  const url = computed(() => abs(route.path))
+  const url = computed(() => pageUrl(route.path))
   const image = computed(() => abs(unref(options.image) || profile.meta?.ogImage || '/og-image.png'))
 
   useHead({
     htmlAttrs: { lang: locale, dir },
     link: computed(() => [
       { rel: 'canonical', href: url.value },
-      ...locales.map((l) => ({ rel: 'alternate', hreflang: l, href: abs(localizePath(route.path, l)) })),
-      { rel: 'alternate', hreflang: 'x-default', href: abs(localizePath(stripLocale(route.path), fallback)) }
+      ...locales.map((l) => ({ rel: 'alternate', hreflang: l, href: pageUrl(localizePath(route.path, l)) })),
+      { rel: 'alternate', hreflang: 'x-default', href: pageUrl(localizePath(stripLocale(route.path), fallback)) }
     ]),
     meta: computed(() => [
       { name: 'theme-color', content: profile.meta?.themeColor?.light, media: '(prefers-color-scheme: light)' },

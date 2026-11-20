@@ -76,7 +76,6 @@
   },
   "contact": {
     "email": "harandi.mohamma@gmail.com",
-    "phone": "+98 913 421 5659",
     "showPhoneOnWebsite": false,
     "heading": {"en": "Let's build something intelligent.", "fa": "بیایید چیزی هوشمند بسازیم."},
     "text": {
@@ -349,11 +348,11 @@
       "bullets": {
         "en": [
           "Curated an English vocabulary dataset with IPA, CEFR-style difficulty levels, thematic tags, usage notes, example sentences and collocations (RFC 4180 CSV with JSON-encoded fields), released on Kaggle under CC BY-SA 4.0.",
-          "Serves as the core offline lexicon of Memento (memento-words.ir), a Vue & TypeScript vocabulary-learning web app."
+          "Serves as the core offline lexicon of Memento (mementowords.ir), a Vue & TypeScript vocabulary-learning web app."
         ],
         "fa": [
           "گردآوری دیتاست واژگان انگلیسی شامل آوانگاری IPA، سطح دشواری، برچسب موضوعی، نکات کاربردی، جملات نمونه و همایندها (CSV سازگار با RFC 4180 با فیلدهای JSON)، منتشرشده در Kaggle با مجوز CC BY-SA 4.0.",
-          "واژه‌نامهٔ آفلاین اصلی اپلیکیشن وب Memento (memento-words.ir) ساخته‌شده با Vue و TypeScript."
+          "واژه‌نامهٔ آفلاین اصلی اپلیکیشن وب Memento (mementowords.ir) ساخته‌شده با Vue و TypeScript."
         ]
       },
       "links": [
@@ -388,11 +387,11 @@
       },
       "bullets": {
         "en": [
-          "Co-built a Vue & TypeScript vocabulary-learning web app (memento-words.ir) with Fateme Aghababaei.",
+          "Co-built a Vue & TypeScript vocabulary-learning web app (mementowords.ir) with Fateme Aghababaei.",
           "Curated and processed its offline lexicon: IPA, CEFR-style levels, thematic tags, collocations and example sentences, published as a Kaggle dataset."
         ],
         "fa": [
-          "توسعهٔ مشترک وب‌اپلیکیشن یادگیری واژگان با Vue و TypeScript (memento-words.ir) با همکاری فاطمه آقابابایی.",
+          "توسعهٔ مشترک وب‌اپلیکیشن یادگیری واژگان با Vue و TypeScript (mementowords.ir) با همکاری فاطمه آقابابایی.",
           "گردآوری و پردازش واژه‌نامهٔ آفلاین آن شامل IPA، سطح دشواری، برچسب موضوعی، همایندها و جملات نمونه که به‌صورت دیتاست در Kaggle منتشر شده است."
         ]
       },
@@ -865,10 +864,10 @@
           "oxford-vocabulary-dataset": {
             "bullets": {
               "en": [
-                "Curated an English vocabulary dataset (IPA, CEFR-style levels, collocations, usage notes, examples; CC BY-SA 4.0) powering the Memento vocabulary app (memento-words.ir)."
+                "Curated an English vocabulary dataset (IPA, CEFR-style levels, collocations, usage notes, examples; CC BY-SA 4.0) powering the Memento vocabulary app (mementowords.ir)."
               ],
               "fa": [
-                "گردآوری دیتاست واژگان انگلیسی (IPA، سطح دشواری، همایندها، نکات کاربردی و جملات نمونه؛ مجوز CC BY-SA 4.0)، پشتوانهٔ اپلیکیشن یادگیری واژگان Memento (memento-words.ir)."
+                "گردآوری دیتاست واژگان انگلیسی (IPA، سطح دشواری، همایندها، نکات کاربردی و جملات نمونه؛ مجوز CC BY-SA 4.0)، پشتوانهٔ اپلیکیشن یادگیری واژگان Memento (mementowords.ir)."
               ]
             }
           }

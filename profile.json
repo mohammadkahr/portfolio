@@ -1,0 +1,884 @@
+{
+  "$schemaVersion": 1,
+  "meta": {
+    "siteUrl": "https://mohammadkahr.github.io",
+    "defaultLocale": "en",
+    "locales": ["en", "fa"],
+    "localeNames": {"en": "English", "fa": "فارسی"},
+    "calendar": {"en": "gregory", "fa": "gregory"},
+    "themeColor": {"light": "#f7f7f4", "dark": "#0b0b0c"},
+    "ogImage": "/og-image.png",
+    "twitterHandle": "",
+    "sections": ["about", "research", "experience", "projects", "skills", "achievements", "contact"]
+  },
+  "seo": {
+    "title": {
+      "en": "Mohammad Kazem Harandi — AI & LLM Specialist",
+      "fa": "محمدکاظم هرندی — متخصص هوش مصنوعی و مدل‌های زبانی بزرگ"
+    },
+    "description": {
+      "en": "AI & LLM specialist and M.Sc. student at the University of Isfahan. Building LLM applications, LangChain agents, NLP pipelines and explainable ML systems. Published in IEEE Xplore.",
+      "fa": "متخصص هوش مصنوعی و مدل‌های زبانی بزرگ و دانشجوی کارشناسی ارشد دانشگاه اصفهان؛ توسعه‌دهندهٔ اپلیکیشن‌های مبتنی بر LLM، ایجنت‌های LangChain، پایپ‌لاین‌های NLP و سیستم‌های یادگیری ماشین تفسیرپذیر."
+    },
+    "keywords": [
+      "LLM",
+      "LangChain",
+      "NLP",
+      "Machine Learning",
+      "Explainable AI",
+      "Python",
+      "Django",
+      "Flask",
+      "University of Isfahan",
+      "Mohammad Kazem Harandi"
+    ]
+  },
+  "personal": {
+    "name": {"en": "Mohammad Kazem Harandi", "fa": "محمدکاظم هرندی"},
+    "shortName": {"en": "M. K. Harandi", "fa": "هرندی"},
+    "initials": "MH",
+    "role": {"en": "AI & LLM Specialist", "fa": "متخصص هوش مصنوعی و مدل‌های زبانی بزرگ"},
+    "headline": {
+      "en": "M.Sc. Student in Information Technology (E-Commerce)",
+      "fa": "دانشجوی کارشناسی ارشد فناوری اطلاعات (تجارت الکترونیک)"
+    },
+    "tagline": {
+      "en": "I build language-model systems that turn messy, real-world data into decisions people can trust.",
+      "fa": "سیستم‌هایی مبتنی بر مدل‌های زبانی می‌سازم که داده‌های نامنظم دنیای واقعی را به تصمیم‌هایی قابل اعتماد تبدیل می‌کنند."
+    },
+    "location": {"en": "Isfahan, Iran", "fa": "اصفهان، ایران"},
+    "timezone": "Asia/Tehran",
+    "avatar": "/images/profile-avatar.png",
+    "availability": {
+      "enabled": true,
+      "text": {"en": "Open to AI/ML engineering & research roles", "fa": "آمادهٔ همکاری در نقش‌های مهندسی و پژوهش هوش مصنوعی"}
+    },
+    "summary": {
+      "en": "M.Sc. student in Information Technology (E-Commerce) and Computer Engineering graduate from the University of Isfahan. Experienced in developing LLM-based applications, LangChain agents, NLP pipelines, and Machine Learning systems using Python, Flask, and Django. Published researcher on automated LLM workflows in IEEE Xplore, with an algorithmic background, a competitive programming track record, and practical experience in customer analytics and explainable AI.",
+      "fa": "دانشجوی کارشناسی ارشد فناوری اطلاعات (تجارت الکترونیک) و دانش‌آموختهٔ کارشناسی مهندسی کامپیوتر دانشگاه اصفهان. دارای تجربه در توسعهٔ اپلیکیشن‌های مبتنی بر LLM، ایجنت‌های LangChain، پایپ‌لاین‌های پردازش زبان طبیعی و سیستم‌های یادگیری ماشین با Python، Flask و Django. پژوهشگر دارای مقالهٔ منتشرشده در IEEE Xplore در حوزهٔ گردش‌کارهای خودکار مبتنی بر LLM، با پیشینهٔ الگوریتمی، سابقهٔ برنامه‌نویسی رقابتی و تجربهٔ عملی در تحلیل مشتری و هوش مصنوعی تفسیرپذیر."
+    },
+    "about": {
+      "en": [
+        "I'm an AI engineer and researcher at the University of Isfahan, where I finished my B.Sc. in Computer Engineering and now study Information Technology with a focus on E-Commerce.",
+        "My work sits where language models meet messy data: server logs, customer records, financial datasets, and natural speech. I like systems that do a lot of the boring work with deterministic code and save the LLM for the parts that really need reasoning. That makes them cheaper, easier to check, and easier to trust.",
+        "Outside research I teach. I've run the Operating Systems lab, worked as a TA for seven courses, and led the university's ACM Student Chapter, where we organize national programming contests."
+      ],
+      "fa": [
+        "مهندس و پژوهشگر هوش مصنوعی در دانشگاه اصفهان هستم؛ جایی که کارشناسی مهندسی کامپیوتر را به پایان رساندم و اکنون در رشتهٔ فناوری اطلاعات با گرایش تجارت الکترونیک تحصیل می‌کنم.",
+        "تمرکز کارم نقطهٔ تلاقی مدل‌های زبانی و داده‌های نامنظم است: لاگ‌های سرور، داده‌های مشتریان، دیتاست‌های مالی و گفتار طبیعی. به سیستم‌هایی علاقه دارم که کارهای تکراری را با کد قطعی انجام می‌دهند و مدل زبانی را فقط برای بخش‌هایی نگه می‌دارند که واقعاً به استدلال نیاز دارند؛ نتیجه، سیستمی ارزان‌تر، قابل‌بررسی‌تر و قابل‌اعتمادتر است.",
+        "در کنار پژوهش، تدریس هم می‌کنم: مدرس آزمایشگاه سیستم‌عامل، دستیار آموزشی هفت درس و رئیس شاخهٔ دانشجویی ACM دانشگاه که در آن مسابقات ملی برنامه‌نویسی برگزار می‌کنیم."
+      ]
+    },
+    "focus": {
+      "en": ["LLM applications & agents", "NLP pipelines", "Explainable AI (SHAP, LIME)", "Customer & web analytics"],
+      "fa": ["اپلیکیشن‌ها و ایجنت‌های LLM", "پایپ‌لاین‌های NLP", "هوش مصنوعی تفسیرپذیر (SHAP و LIME)", "تحلیل مشتری و وب"]
+    }
+  },
+  "contact": {
+    "email": "harandi.mohamma@gmail.com",
+    "phone": "+98 913 421 5659",
+    "showPhoneOnWebsite": false,
+    "heading": {"en": "Let's build something intelligent.", "fa": "بیایید چیزی هوشمند بسازیم."},
+    "text": {
+      "en": "Have a research collaboration, an LLM product, or a role in mind? My inbox is open. I usually reply within a day or two.",
+      "fa": "اگر پیشنهاد همکاری پژوهشی، محصولی مبتنی بر LLM یا موقعیت شغلی دارید، خوشحال می‌شوم پیامتان را بخوانم. معمولاً ظرف یکی دو روز پاسخ می‌دهم."
+    }
+  },
+  "social": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "handle": "mohammadkahr",
+      "url": "https://github.com/mohammadkahr",
+      "icon": "github",
+      "resume": true
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "handle": "mohammad-kazem-harandi",
+      "url": "https://linkedin.com/in/mohammad-kazem-harandi",
+      "icon": "linkedin",
+      "resume": true
+    },
+    {
+      "id": "scholar",
+      "label": {"en": "Google Scholar", "fa": "گوگل اسکالر"},
+      "handle": "Scholar profile",
+      "url": "https://scholar.google.com/citations?user=20FcfowAAAAJ",
+      "icon": "scholar",
+      "resume": true
+    },
+    {
+      "id": "telegram",
+      "label": {"en": "Telegram", "fa": "تلگرام"},
+      "handle": "@mohammadk_hr",
+      "url": "https://t.me/mohammadk_hr",
+      "icon": "telegram",
+      "resume": false
+    }
+  ],
+  "skills": [
+    {
+      "id": "languages",
+      "category": {"en": "Programming Languages", "fa": "زبان‌های برنامه‌نویسی"},
+      "items": [
+        {"name": "Python", "note": {"en": "core", "fa": "اصلی"}, "primary": true},
+        {"name": "Java"},
+        {"name": "Kotlin"},
+        {"name": "C++"},
+        {"name": "SQL"}
+      ]
+    },
+    {
+      "id": "ai",
+      "category": {"en": "AI & LLMs", "fa": "هوش مصنوعی و LLM"},
+      "items": [
+        {"name": {"en": "LLMs & Prompt Engineering", "fa": "LLM و مهندسی پرامپت"}, "primary": true},
+        {"name": {"en": "LangChain & Tool/Function Calling", "fa": "LangChain و فراخوانی ابزار"}, "primary": true},
+        {"name": {"en": "NLP & Text Processing", "fa": "پردازش زبان طبیعی و متن"}},
+        {"name": {"en": "Machine Learning", "fa": "یادگیری ماشین"}},
+        {"name": {"en": "Deep Learning", "fa": "یادگیری عمیق"}},
+        {"name": {"en": "XAI (SHAP, LIME)", "fa": "هوش مصنوعی تفسیرپذیر (SHAP، LIME)"}},
+        {"name": {"en": "Recommender Systems", "fa": "سیستم‌های توصیه‌گر"}}
+      ]
+    },
+    {
+      "id": "libraries",
+      "category": {"en": "Libraries & Frameworks", "fa": "کتابخانه‌ها و فریم‌ورک‌ها"},
+      "items": [
+        {"name": "PyTorch", "primary": true},
+        {"name": "Scikit-Learn"},
+        {"name": "Pandas"},
+        {"name": "NumPy"},
+        {"name": "LangChain"}
+      ]
+    },
+    {
+      "id": "backend",
+      "category": {"en": "Backend & Web", "fa": "بک‌اند و وب"},
+      "items": [{"name": "Flask"}, {"name": "Django"}, {"name": "REST APIs"}]
+    },
+    {
+      "id": "tools",
+      "category": {"en": "Tools & Environments", "fa": "ابزارها و محیط‌ها"},
+      "items": [{"name": "Git & GitHub"}, {"name": "Linux"}, {"name": "Nginx"}, {"name": "Jupyter Notebook"}]
+    }
+  ],
+  "experience": [
+    {
+      "id": "payampardaz",
+      "type": "work",
+      "role": {"en": "Data Analyst", "fa": "تحلیلگر داده"},
+      "organization": {"en": "PayamPardaz", "fa": "پیام‌پرداز"},
+      "location": {"en": "Isfahan", "fa": "اصفهان"},
+      "start": "2024-07",
+      "end": "2024-10",
+      "bullets": {"en": [], "fa": []},
+      "tags": []
+    },
+    {
+      "id": "os-lab",
+      "type": "teaching",
+      "role": {"en": "Operating Systems Laboratory Instructor", "fa": "مدرس آزمایشگاه سیستم‌عامل"},
+      "organization": {"en": "University of Isfahan", "fa": "دانشگاه اصفهان"},
+      "start": "2025",
+      "end": "2026",
+      "bullets": {
+        "en": ["Ran hands-on lab sessions on Linux processes, concurrency, multithreading, and memory management."],
+        "fa": ["برگزاری جلسات عملی دربارهٔ فرایندهای لینوکس، همروندی، چندنخی و مدیریت حافظه."]
+      }
+    },
+    {
+      "id": "ta",
+      "type": "teaching",
+      "role": {"en": "Teaching Assistant (TA)", "fa": "دستیار آموزشی"},
+      "organization": {"en": "University of Isfahan", "fa": "دانشگاه اصفهان"},
+      "start": "2022",
+      "end": "2025",
+      "courses": [
+        {
+          "name": {"en": "Startup Business Development", "fa": "توسعه کسب و کار نوپا"},
+          "instructor": {"en": "Dr. Noorbehbahani", "fa": "دکتر نوربهبهانی"},
+          "term": {"en": "Fall 2025", "fa": "پاییز ۲۰۲۵"}
+        },
+        {
+          "name": {"en": "Operating Systems", "fa": "سیستم‌های عامل"},
+          "instructor": {"en": "Dr. Ejei", "fa": "دکتر اژه‌ای"},
+          "term": {"en": "Fall 2024", "fa": "پاییز ۲۰۲۴"}
+        },
+        {
+          "name": {"en": "Microprocessors & Assembly Language", "fa": "ریزپردازنده و زبان اسمبلی"},
+          "instructor": {"en": "Dr. Kalbasi", "fa": "دکتر کلباسی"},
+          "term": {"en": "Fall 2024", "fa": "پاییز ۲۰۲۴"}
+        },
+        {
+          "name": {"en": "Theory of Languages & Automata", "fa": "نظریه زبان‌ها و ماشین‌ها"},
+          "instructor": {"en": "Dr. Ejei", "fa": "دکتر اژه‌ای"},
+          "term": {"en": "Spring 2024", "fa": "بهار ۲۰۲۴"}
+        },
+        {
+          "name": {"en": "Data Structures", "fa": "ساختمان‌های داده"},
+          "instructor": {"en": "Dr. Fatemi", "fa": "دکتر فاطمی"},
+          "term": {"en": "Fall 2023", "fa": "پاییز ۲۰۲۳"}
+        },
+        {
+          "name": {"en": "Advanced Programming (Java)", "fa": "برنامه نویسی پیشرفته - جاوا"},
+          "instructor": {"en": "Dr. Ramezani", "fa": "دکتر رمضانی"},
+          "term": {"en": "Spring 2023", "fa": "بهار ۲۰۲۳"}
+        },
+        {
+          "name": {"en": "Fundamentals of Programming (C++)", "fa": "مبانی برنامه نویسی ++C"},
+          "instructor": {"en": "Dr. Kalbasi", "fa": "دکتر کلباسی"},
+          "term": {"en": "Fall 2022", "fa": "پاییز ۲۰۲۲"}
+        }
+      ]
+    },
+    {
+      "id": "acm",
+      "type": "leadership",
+      "role": {"en": "Chairman & Core Member", "fa": "رئیس و عضو هستهٔ مرکزی"},
+      "organization": {"en": "ACM Student Chapter, University of Isfahan", "fa": "شاخهٔ دانشجویی ACM دانشگاه اصفهان"},
+      "start": "2023",
+      "end": "2025"
+    },
+    {
+      "id": "charbug",
+      "type": "leadership",
+      "role": {
+        "en": "Organizer (1st Edition) & Vice-organizer (2nd Edition)",
+        "fa": "دبیر (دورهٔ اول) و نایب‌دبیر (دورهٔ دوم)"
+      },
+      "organization": {"en": "Char Bug National Contest", "fa": "مسابقهٔ ملی Char Bug"},
+      "start": "2023",
+      "end": "2025"
+    },
+    {
+      "id": "tedx",
+      "type": "leadership",
+      "role": {"en": "Sponsorship & Partnership Lead", "fa": "مسئول جذب حامیان و همکاری‌ها"},
+      "organization": {"en": "TEDx University of Isfahan", "fa": "TEDx دانشگاه اصفهان"},
+      "start": "2023",
+      "end": "2025"
+    },
+    {
+      "id": "cactus",
+      "type": "leadership",
+      "role": {"en": "Managing Director", "fa": "مدیرمسئول"},
+      "organization": {"en": "Cactus Student Journal, University of Isfahan", "fa": "نشریهٔ دانشجویی کاکتوس، دانشگاه اصفهان"},
+      "start": "2024",
+      "end": "2025"
+    }
+  ],
+  "education": [
+    {
+      "id": "msc",
+      "degree": {
+        "en": "M.Sc. in Information Technology — E-Commerce",
+        "fa": "کارشناسی ارشد فناوری اطلاعات — گرایش تجارت الکترونیک"
+      },
+      "institution": {"en": "University of Isfahan", "fa": "دانشگاه اصفهان"},
+      "start": "2025",
+      "end": null
+    },
+    {
+      "id": "bsc",
+      "degree": {"en": "B.Sc. in Computer Engineering", "fa": "کارشناسی مهندسی کامپیوتر"},
+      "institution": {"en": "University of Isfahan", "fa": "دانشگاه اصفهان"},
+      "start": "2021",
+      "end": "2025"
+    }
+  ],
+  "publications": [
+    {
+      "id": "nginx-narrator",
+      "title": "Nginx-Narrator: LLM-Based Automated Nginx Log Analysis for UX Friction Detection in Web Applications",
+      "shortTitle": "Nginx-Narrator: LLM-Based Automated Nginx Log Analysis for UX Friction Detection",
+      "authors": ["Mohammad Kazem Harandi", "Behrouz Shahgholi Ghahfarokhi"],
+      "venue": {
+        "en": "12th International Conference on Web Research (ICWR) — IEEE Xplore",
+        "fa": "دوازدهمین کنفرانس بین‌المللی پژوهش‌های وب (ICWR) — IEEE Xplore"
+      },
+      "year": "2026",
+      "shortVenue": "ICWR 2026 · IEEE",
+      "bibtexVenue": "2026 12th International Conference on Web Research (ICWR)",
+      "pages": "193–",
+      "summary": {
+        "en": "A four-stage hybrid framework that turns raw Nginx access logs into structured UX narratives: regex parsing aligned with the Elastic Common Schema, heuristic sessionization, a weighted UX-friction triage score, and long-context LLM narration.",
+        "fa": "چارچوبی ترکیبی و چهارمرحله‌ای که لاگ‌های خام دسترسی Nginx را به روایت‌های ساختاریافتهٔ تجربهٔ کاربری تبدیل می‌کند: پارس مبتنی بر Regex هم‌راستا با Elastic Common Schema، نشست‌سازی ابتکاری، امتیازدهی وزن‌دار اصطکاک UX و روایت‌سازی با LLM دارای پنجرهٔ زمینهٔ بلند."
+      },
+      "bullets": {
+        "en": [
+          "Designed an automated end-to-end pipeline leveraging LLMs to parse raw Nginx web server logs and translate technical HTTP error patterns into structured UX/product friction insights.",
+          "Extracted server-side user friction signals directly from access logs without relying on client-side tracking scripts."
+        ],
+        "fa": [
+          "طراحی پایپ‌لاین خودکار سرتاسری مبتنی بر LLM برای پارس لاگ‌های خام وب‌سرور Nginx و ترجمهٔ الگوهای خطای HTTP به بینش‌های ساختاریافتهٔ اصطکاک UX و محصول.",
+          "استخراج سیگنال‌های اصطکاک کاربر به‌طور مستقیم از لاگ‌های دسترسی سمت سرور، بدون نیاز به اسکریپت‌های ردیابی سمت کاربر."
+        ]
+      },
+      "metrics": [
+        {"value": "10M", "label": {"en": "log entries analyzed", "fa": "رکورد لاگ تحلیل‌شده"}},
+        {"value": "321,997", "label": {"en": "sessions reconstructed", "fa": "نشست بازسازی‌شده"}},
+        {"value": "≈98%", "label": {"en": "less manual review", "fa": "کاهش بازبینی دستی"}}
+      ],
+      "links": [
+        {"label": {"en": "Download PDF", "fa": "دریافت PDF"}, "url": "/papers/nginx-narrator.pdf"},
+        {
+          "label": {"en": "Google Scholar", "fa": "گوگل اسکالر"},
+          "url": "https://scholar.google.com/citations?user=20FcfowAAAAJ"
+        }
+      ],
+      "tags": ["LLM", "Web Usage Mining", "UX", "Nginx", "Gemini 1.5 Pro"],
+      "type": "paper",
+      "pdf": "/papers/nginx-narrator.pdf"
+    },
+    {
+      "id": "oxford-vocabulary-dataset",
+      "type": "dataset",
+      "title": "Oxford English Vocabulary Dataset (with IPA, Collocations & Examples)",
+      "authors": ["Fateme Aghababaei", "Mohammad Kazem Harandi"],
+      "role": {"en": "Data curation & NLP engineering", "fa": "گردآوری داده و مهندسی NLP"},
+      "venue": {"en": "Kaggle Datasets · CC BY-SA 4.0", "fa": "Kaggle Datasets · مجوز CC BY-SA 4.0"},
+      "shortVenue": "Kaggle",
+      "url": "https://www.kaggle.com/datasets/mohammadkhr/oxford-english-vocabulary-with-ipa-and-collocations",
+      "summary": {
+        "en": "A structured English vocabulary dataset for language-learning apps, SRS flashcards and NLP. Each entry has an IPA transcription, CEFR-style difficulty level, thematic tags, a definition, example sentences, usage notes and collocations, in an RFC 4180 CSV with JSON-encoded fields. It is the offline lexicon behind the Memento app.",
+        "fa": "دیتاستی ساختاریافته از واژگان انگلیسی برای اپلیکیشن‌های آموزش زبان، فلش‌کارت‌های SRS و پردازش زبان طبیعی. هر مدخل شامل آوانگاری IPA، سطح دشواری (مبتدی، متوسط، پیشرفته)، برچسب‌های موضوعی، تعریف، جملات نمونه، نکات کاربردی و همایندها است و در قالب CSV سازگار با RFC 4180 با فیلدهای JSON منتشر شده است. این دیتاست واژه‌نامهٔ آفلاین اپلیکیشن Memento است."
+      },
+      "bullets": {
+        "en": [
+          "Curated an English vocabulary dataset with IPA, CEFR-style difficulty levels, thematic tags, usage notes, example sentences and collocations (RFC 4180 CSV with JSON-encoded fields), released on Kaggle under CC BY-SA 4.0.",
+          "Serves as the core offline lexicon of Memento (memento-words.ir), a Vue & TypeScript vocabulary-learning web app."
+        ],
+        "fa": [
+          "گردآوری دیتاست واژگان انگلیسی شامل آوانگاری IPA، سطح دشواری، برچسب موضوعی، نکات کاربردی، جملات نمونه و همایندها (CSV سازگار با RFC 4180 با فیلدهای JSON)، منتشرشده در Kaggle با مجوز CC BY-SA 4.0.",
+          "واژه‌نامهٔ آفلاین اصلی اپلیکیشن وب Memento (memento-words.ir) ساخته‌شده با Vue و TypeScript."
+        ]
+      },
+      "links": [
+        {
+          "label": {"en": "View on Kaggle", "fa": "مشاهده در Kaggle"},
+          "url": "https://www.kaggle.com/datasets/mohammadkhr/oxford-english-vocabulary-with-ipa-and-collocations"
+        },
+        {"label": {"en": "Memento app", "fa": "اپلیکیشن Memento"}, "url": "https://mementowords.ir"}
+      ],
+      "tags": ["NLP", "Dataset", "IPA", "CEFR", "Collocations", "Language Learning"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "quant-sentinel",
+      "name": "Quant-Sentinel",
+      "year": "2026",
+      "description": {
+        "en": "An adversarial multi-agent LLM framework for quantitative cryptocurrency trading and risk management.",
+        "fa": "چارچوب چندعاملی تقابلی مبتنی بر LLM برای معاملات کمّی رمزارز و مدیریت ریسک."
+      },
+      "tech": ["Python", "LLM Agents", "Multi-Agent"],
+      "links": {"repo": "https://github.com/mohammadkahr/Quant-Sentinel"}
+    },
+    {
+      "id": "memento",
+      "name": "Memento",
+      "subtitle": {"en": "Vocabulary Learning Web App", "fa": "وب‌اپلیکیشن یادگیری واژگان"},
+      "description": {
+        "en": "A vocabulary-learning web app built with Vue and TypeScript, built with Fateme Aghababaei. Its offline lexicon is our Oxford English vocabulary dataset, which I curated and processed: IPA, difficulty levels, collocations and real example sentences.",
+        "fa": "وب‌اپلیکیشن یادگیری واژگان ساخته‌شده با Vue و TypeScript، با همکاری فاطمه آقابابایی. واژه‌نامهٔ آفلاین آن دیتاست واژگان انگلیسی آکسفورد است که گردآوری و پردازش آن را انجام داده‌ام: آوانگاری IPA، سطح دشواری، همایندها و جملات نمونه."
+      },
+      "bullets": {
+        "en": [
+          "Co-built a Vue & TypeScript vocabulary-learning web app (memento-words.ir) with Fateme Aghababaei.",
+          "Curated and processed its offline lexicon: IPA, CEFR-style levels, thematic tags, collocations and example sentences, published as a Kaggle dataset."
+        ],
+        "fa": [
+          "توسعهٔ مشترک وب‌اپلیکیشن یادگیری واژگان با Vue و TypeScript (memento-words.ir) با همکاری فاطمه آقابابایی.",
+          "گردآوری و پردازش واژه‌نامهٔ آفلاین آن شامل IPA، سطح دشواری، برچسب موضوعی، همایندها و جملات نمونه که به‌صورت دیتاست در Kaggle منتشر شده است."
+        ]
+      },
+      "tech": ["Vue", "TypeScript", "NLP", "Data Curation"],
+      "links": {
+        "demo": "https://mementowords.ir",
+        "dataset": "https://www.kaggle.com/datasets/mohammadkhr/oxford-english-vocabulary-with-ipa-and-collocations"
+      }
+    },
+    {
+      "id": "jarvis",
+      "name": "JARVIS",
+      "subtitle": {"en": "Multi-Modal AI Assistant", "fa": "دستیار هوشمند چندوجهی"},
+      "year": "2025",
+      "description": {
+        "en": "A bilingual (English/Persian) voice assistant built with LangChain, Llama 3, and Whisper. Agents use function calling to fetch live data and control simulated IoT hardware.",
+        "fa": "دستیار صوتی دوزبانه (انگلیسی/فارسی) با LangChain، Llama 3 و Whisper که با فراخوانی تابع، داده‌های زنده را دریافت و سخت‌افزار IoT شبیه‌سازی‌شده را کنترل می‌کند."
+      },
+      "bullets": {
+        "en": [
+          "Developed a bilingual (English/Persian) smart assistant using LangChain, Llama 3, and Whisper for speech recognition and intent understanding.",
+          "Integrated function-calling tools with a Flask backend to fetch live data from external REST APIs (weather, news) and simulate IoT hardware control on ESP32."
+        ],
+        "fa": [
+          "توسعهٔ دستیار هوشمند دوزبانه (انگلیسی/فارسی) با LangChain، Llama 3 و Whisper برای تشخیص گفتار و درک نیت کاربر.",
+          "یکپارچه‌سازی ابزارهای فراخوانی تابع با بک‌اند Flask برای دریافت دادهٔ زنده از REST APIهای خارجی (آب‌وهوا، اخبار) و شبیه‌سازی کنترل سخت‌افزار IoT روی ESP32."
+        ]
+      },
+      "tech": ["LangChain", "Llama 3", "Whisper", "Flask", "ESP32"],
+      "links": {"repo": "https://github.com/mohammadkahr/jarvis-AI-Assistant"}
+    },
+    {
+      "id": "crm-analytics",
+      "name": "CRM Intelligent Customer Analytics",
+      "subtitle": {"en": "AI-Driven Segmentation", "fa": "بخش‌بندی هوشمند مشتریان"},
+      "year": "2025",
+      "description": {
+        "en": "End-to-end CRM analytics using RFM, clustering, fuzzy logic and CLV, with an LLM layer that drafts a retention plan for each segment.",
+        "fa": "تحلیل سرتاسری CRM با RFM، خوشه‌بندی، منطق فازی و ارزش طول عمر مشتری؛ به‌همراه لایهٔ LLM برای تدوین برنامهٔ حفظ مشتری برای هر بخش."
+      },
+      "bullets": {
+        "en": [
+          "Engineered a customer analytics pipeline using RFM analysis, clustering algorithms, and fuzzy logic to compute Customer Lifetime Value (CLV).",
+          "Integrated an LLM module that formulates tailored retention and marketing action plans per customer segment."
+        ],
+        "fa": [
+          "طراحی پایپ‌لاین تحلیل مشتری با تحلیل RFM، الگوریتم‌های خوشه‌بندی و منطق فازی برای محاسبهٔ ارزش طول عمر مشتری (CLV).",
+          "افزودن ماژول LLM برای تدوین خودکار برنامه‌های اختصاصی حفظ مشتری و بازاریابی برای هر بخش."
+        ]
+      },
+      "tech": ["Python", "Scikit-Learn", "Fuzzy Logic", "LLM", "Jupyter"],
+      "links": {"repo": "https://github.com/mohammadkahr/crm-intelligent-customer-analytics"}
+    },
+    {
+      "id": "explain-banker",
+      "name": "Explain-Banker.ai",
+      "subtitle": {"en": "Explainable AI Banking System", "fa": "سیستم بانکی تفسیرپذیر"},
+      "year": "2026",
+      "description": {
+        "en": "Predicts term-deposit subscriptions from CRM and financial data, then uses SHAP, LIME and an LLM layer to explain each decision to banking specialists in plain language.",
+        "fa": "پیش‌بینی اشتراک سپردهٔ مدت‌دار از داده‌های CRM و مالی، همراه با توضیح تصمیم‌ها برای کارشناسان بانکی با SHAP، LIME و یک لایهٔ LLM."
+      },
+      "bullets": {
+        "en": [
+          "Built a predictive system for term-deposit subscriptions using CRM and financial datasets with classical ML algorithms.",
+          "Integrated SHAP and LIME explainability with an LLM layer to generate interpretable decision explanations for banking specialists."
+        ],
+        "fa": [
+          "ساخت سیستم پیش‌بینی اشتراک سپردهٔ مدت‌دار با داده‌های CRM و مالی و الگوریتم‌های کلاسیک یادگیری ماشین.",
+          "یکپارچه‌سازی چارچوب‌های تفسیرپذیری SHAP و LIME با لایهٔ LLM برای تولید توضیحات قابل فهم برای کارشناسان بانکی."
+        ]
+      },
+      "tech": ["Python", "SHAP", "LIME", "Scikit-Learn", "LLM"],
+      "links": {}
+    },
+    {
+      "id": "fake-news",
+      "name": "NoMoreLies — Fake News Detector",
+      "year": "2025",
+      "description": {
+        "en": "Fake-news text classification with TF-IDF and Word2Vec features. An SVM-RBF model reached 99.73% accuracy, with precision, recall and F1 also reported.",
+        "fa": "طبقه‌بندی متنی اخبار جعلی با TF-IDF و Word2Vec؛ دقت ۹۹٫۷۳٪ با طبقه‌بند SVM-RBF و ارزیابی با Precision، Recall و F1."
+      },
+      "bullets": {
+        "en": [
+          "Built a text classification system using text preprocessing, TF-IDF, and Word2Vec embeddings.",
+          "Achieved 99.73% accuracy using an SVM-RBF classifier; evaluated with Precision, Recall, and F1-Score."
+        ],
+        "fa": [
+          "ساخت سیستم طبقه‌بندی متن با پیش‌پردازش متن، TF-IDF و بردارهای Word2Vec.",
+          "دستیابی به دقت ۹۹٫۷۳٪ با طبقه‌بند SVM-RBF و ارزیابی با معیارهای Precision، Recall و F1."
+        ]
+      },
+      "tech": ["NLP", "TF-IDF", "Word2Vec", "SVM", "Scikit-Learn"],
+      "metric": {"value": "99.73%", "label": {"en": "accuracy", "fa": "دقت"}},
+      "links": {"repo": "https://github.com/mohammadkahr/NoMoreLies-NLP"}
+    },
+    {
+      "id": "web-storage",
+      "name": "WEB-Storage",
+      "subtitle": {"en": "Cloud Object Storage Platform", "fa": "پلتفرم ذخیره‌سازی ابری اشیا"},
+      "year": "2023",
+      "description": {
+        "en": "An object-storage management platform in Python, built on cloud SDKs. It handles file lifecycle and access control, plus token-based auth with email verification.",
+        "fa": "پلتفرم مدیریت ذخیره‌سازی اشیا با Python و SDKهای ابری؛ مدیریت چرخهٔ عمر فایل، کنترل دسترسی و احراز هویت مبتنی بر توکن با تأیید ایمیل."
+      },
+      "bullets": {
+        "en": [
+          "Developed an object storage management platform in Python using cloud SDKs for file lifecycle and access control.",
+          "Implemented token-based authentication, user registration, login, and email verification."
+        ],
+        "fa": [
+          "توسعهٔ پلتفرم مدیریت ذخیره‌سازی اشیا با Python و SDKهای ابری برای چرخهٔ عمر فایل و کنترل دسترسی.",
+          "پیاده‌سازی احراز هویت مبتنی بر توکن، ثبت‌نام، ورود و تأیید ایمیل."
+        ]
+      },
+      "tech": ["Python", "Django", "Cloud SDK", "Auth"],
+      "links": {"repo": "https://github.com/mohammadkahr/WEB-Storage"}
+    }
+  ],
+  "articles": [
+    {
+      "id": "nginx-narrator",
+      "slug": "nginx-narrator",
+      "type": "internal",
+      "publication": "nginx-narrator",
+      "date": "2026-11-10",
+      "tags": ["LLM", "UX", "Log Analysis"],
+      "title": {
+        "en": "Nginx-Narrator: LLM-Based Automated Nginx Log Analysis for UX Friction Detection in Web Applications",
+        "fa": "Nginx-Narrator: خواندن اصطکاک تجربهٔ کاربری مستقیماً از لاگ‌های سرور"
+      },
+      "excerpt": {
+        "en": "The complete ICWR 2026 paper (IEEE): a hybrid framework that turns 10 million raw Nginx log lines into UX narratives with regex parsing, sessionization, friction scoring and long-context LLM narration. Includes all figures, tables and references.",
+        "fa": "ابزارهای تحلیل سمت کاربر هر سال داده‌های بیشتری را از دست می‌دهند. در این یادداشت توضیح می‌دهم چگونه با ترکیب پارس قطعی و یک LLM با زمینهٔ بلند، ۱۰ میلیون خط لاگ Nginx را به روایت‌هایی قابل اقدام برای تیم محصول تبدیل کردیم."
+      },
+      "content": {
+        "en": [
+          "<p class=\"paper-meta\"><strong>Mohammad Kazem Harandi</strong>, Behrouz Shahgholi Ghahfarokhi<br>Dept. of Information Technology Engineering, University of Isfahan, Isfahan, Iran<br>2026 12th International Conference on Web Research (ICWR), IEEE, pp. 193–198</p>",
+          "",
+          "## Abstract",
+          "",
+          "Web server access logs contain detailed traces of user interactions, yet their potential for user experience (UX) analysis is often underutilized. Most existing log analysis approaches focus on system-level objectives such as reliability monitoring and anomaly detection. As a result, they provide limited insight into behavioral aspects of user interaction, including patterns that may indicate confusion, hesitation, or difficulty navigating. This paper introduces Nginx-Narrator, an automated framework designed to transform raw Nginx access logs into structured UX-based narratives. Rather than relying solely on statistical aggregation, the framework combines rule-based processing with large language models (LLMs) capable of handling large interaction contexts. This enables the system to interpret long and complex user sessions that are typically difficult to analyze using conventional techniques. The proposed approach follows a four-step pipeline: (1) regex-based log parsing aligned with Elastic Common Schema (ECS), (2) rule-based session reconstruction, (3) a UX friction scoring module that ranks sessions based on behavioral signals, and (4) semantic narrative generation. The framework was evaluated on a real dataset of 10 million log entries from a large-scale e-commerce platform. In total, 321,997 user sessions were reconstructed, among which 8,104 friction-related events and 606 server-side errors were identified. By filtering out low-relevance sessions, the system reduced the volume of data requiring manual inspection by approximately 98%. While the framework focuses on tracking server-side interactions and does not capture client-side behavioral signals, the results show that meaningful UX insights can be extracted from existing logging infrastructure without the need for additional tracking mechanisms. Overall, Nginx-Narrator provides a scalable and practical approach to support UX analysis in large-scale web environments.",
+          "",
+          "**Keywords:** Web Server Logs, User Experience (UX), Large Language Models (LLM), UX Narrative, Web Usage Mining.",
+          "",
+          "## I. Introduction",
+          "",
+          "The effectiveness of modern web applications is closely linked to the quality of the user experience (UX) they deliver. As competition in digital markets intensifies, organizations continue to invest in improving user experience to increase conversion rates and build long-term customer relationships [1, 2]. Despite these efforts, gaining a clear understanding of how users navigate complex online environments remains challenging. Most existing solutions for analyzing user experience rely on client-side tracking scripts. Although these approaches are widely used, they are increasingly limited by privacy-oriented browser configurations and the widespread use of ad-blocking technologies. Furthermore, client-side mechanisms are inherently limited in scope, as they may not be able to capture server-side crashes or interruptions that occur before the tracking scripts are fully executed.",
+          "",
+          "Web server access logs provide an alternative and often more comprehensive data source. Logs generated by servers such as Nginx record every incoming request processed by the backend infrastructure, creating a reliable and verifiable trace of user-system interactions [3, 4]. In essence, they capture the complete sequence of user activity. However, as Groves observes, server logs pose several obstacles to usability analysis: they are typically unstructured, large-scale, and lack explicit indicators of user intent [5]. Research in log analysis has traditionally progressed in two main directions. The first direction focuses on exploring web usage and aims to extract general behavioral patterns from historical data [2, 6]. The second direction emphasizes anomaly detection techniques designed for security monitoring and auditing purposes [7, 8]. Although newer approaches, such as the isolated forest-based framework introduced by Benova and Hudec [7], have advanced the detection of anomalous user behavior, their primary goal is still to detect malicious actors (such as bots or hackers) rather than to detect usability-related friction encountered by legitimate users.",
+          "",
+          "Recent advances in large language models (LLMs) offer new opportunities to address this gap between technical log data and meaningful interpretation of user experience. Early attempts to use LLMs for log analysis were plagued by the limitations of context windows, which required truncating long user sessions, thereby disrupting behavioral continuity [9, 10]. Introducing models that support context windows of up to a million tokens enables the full, multi-stage processing of customer journeys within a single analytical framework, enabling more coherent and comprehensive interpretation.",
+          "",
+          "In this work, we introduce Nginx-Narrator, a hybrid framework that integrates structured data engineering techniques with generative artificial intelligence to transform raw log inputs into interpretable narratives of digital interactions. The main contributions of this study are as follows:",
+          "",
+          "- **Hybrid UX Assessment Architecture:** We design a scalable processing pipeline that combines high-performance regex-based parsing [11, 12] with a weighted UX friction scoring mechanism. This approach filters out routine operational noise and selectively sends behaviorally important sessions to the LLM.",
+          "- **Semantic Narrative Generation:** Leveraging large language models, the system transforms quantitative session features into qualitative narratives that express the user's inferred intentions and highlight potential friction points [13, 14].",
+          "- **Secure local deployment strategy:** We propose a method for deploying quantized and compressed language models in privacy-sensitive enterprise environments, which ensures that sensitive log data can be securely processed on-site [15, 16].",
+          "",
+          "The rest of this paper is structured as follows. Section 2 reviews previous research in log parsing and behavioral analysis [17, 18]. Section 3 presents the architecture and implementation details of Nginx-Narrator. Section 4 reports empirical findings based on a 10 million line dataset [19]. Finally, it concludes the paper and outlines future research directions.",
+          "",
+          "## II. Background and Related Work",
+          "",
+          "The field of log analysis has gradually evolved from its initial role as an auxiliary tool for debugging to a mature discipline that supports security auditing and performance monitoring. Despite this progress, its integration into user experience research remains fragmented and methodologically inconsistent. To clarify the landscape, the body of existing work can be organized into four main streams.",
+          "",
+          "### A. Log Parsing and Data Standardization",
+          "",
+          "Any meaningful log analysis begins with the transformation of raw, unstructured text into structured, machine-readable representations. Over time, automated log parsing techniques such as Drain3 [11] and Spell [13] have been introduced to extract patterns from diverse and highly variable system logs. These approaches are particularly effective in heterogeneous environments where log formats lack consistency.",
+          "",
+          "However, web server logs such as those produced by Nginx generally adhere to predefined structures (e.g., a common log format). In such cases, deterministic parsing strategies remain both efficient and reliable. As Friedl [12] argues, carefully optimized regular expressions (Regex) provide a high-performance and transparent mechanism for parsing structured logs, avoiding the computational overhead and potential unpredictability associated with neural parsers.",
+          "",
+          "To increase interoperability in analytics pipelines, contemporary systems increasingly rely on standardized schemas such as the Elastic Common Schema (ECS) [8]. By defining consistent field names such as client IP, URL path, and response status code, ECS facilitates integration with downstream analytics tools and reduces ambiguity in data interpretation.",
+          "",
+          "### B. Classical Web Usage Mining",
+          "",
+          "Web Usage Mining (WUM) aims to uncover patterns in user navigation based on server-side records. Foundational studies by Srivastava et al. [2] and Suneetha et al. [6] established key techniques for sessionization, the process of grouping discrete HTTP requests into coherent user sessions. These early efforts relied heavily on statistical modeling, clustering algorithms, and association rule mining to identify frequent navigation paths and commonly accessed resources.",
+          "",
+          "While such methods successfully reveal aggregate behavioral trends, their outputs are typically quantitative in nature. As noted by Nguyen et al. [20], classical WUM approaches often culminate in visual summaries—such as charts or heatmaps—that describe observable patterns but provide limited explanatory insight. In other words, they effectively answer what users did, but not why certain interaction sequences resulted in abandonment or frustration.",
+          "",
+          "### C. The Semantic Gap in UX Analysis",
+          "",
+          "While issue trackers provide explicit user and developer feedback regarding system anomalies [21], inferring such usability issues directly from server-side logs remains an enduring challenge due to the lack of contextual cues about user perception and intent. Groves [5] criticized the suitability of server-side logs for usability evaluation, emphasizing that such logs cannot capture visual attention, cursor movement, or specific UI elements that users intend to interact with. This limitation, often described as a semantic gap, has motivated the widespread adoption of client-side tracking tools in UX research. However, growing concerns about privacy, script blocking, and data integrity have sparked renewed interest in server-side approaches. Menezes and Nonnecke [14] proposed UX-Log, an early framework aimed at reconstructing user experiences from log files. Although conceptually innovative, their methodology relied heavily on manual rules, limiting scalability in the context of contemporary high-volume platforms such as large e-commerce systems.",
+          "",
+          "### D. Generative AI and LLMs in Log Interpretation",
+          "",
+          "The emergence of large language models introduces a different strategy to address the semantic gap. Recent studies have shown that models such as ChatGPT can help parse, summarize, and label anomalies in logs [9, 17]. However, much of this research has focused on short-term anomaly detection, such as identifying isolated bad entries or suspicious events. For example, Benova and Hudec [7] applied isolated forest algorithms to detect anomalous user activity, with a primary focus on security-related threats such as bot traffic or distributed denial-of-service (DDoS) attacks.",
+          "",
+          "A major practical limitation in the application of LLMs to UX-based log analysis has been the length of the text. Interpreting a complete user journey requires processing long sequences of temporally ordered events. Conventional models often truncate long sessions, thereby disrupting behavioral continuity and weakening interpretability [10, 13].",
+          "",
+          "The introduction of Gemini 1.5 Pro, with its million-token text window, significantly changes this limitation. For the first time, it becomes possible to analyze entire multi-stage sessions as coherent wholes. This enables a shift from fragment-level analysis to narrative-based interpretation, in which the user journey can be understood as a continuous story, rather than a collection of disjointed log entries.",
+          "",
+          "## III. Proposed Nginx-Narrator Framework",
+          "",
+          "The Nginx-Narrator framework is architected as a modular, four-stage pipeline designed to reduce the high-dimensional noise of server logs into low-dimensional, high-context UX narratives. The system follows a hybrid approach: using deterministic rules for high-speed processing and generative reasoning for semantic interpretation. The overall architecture of the proposed framework is depicted in Fig. 1, which outlines the flow from data ingestion to actionable insight generation.",
+          "",
+          "<figure class=\"figure-narrow\"><img src=\"/papers/nginx-narrator/fig1-pipeline.jpg\" alt=\"Pipeline diagram: Raw Nginx Logs, then Log Parsing, Session Reconstruction, UX Scoring and LLM-based Generation, producing Semantic UX Narratives\" width=\"591\" height=\"768\" loading=\"lazy\"><figcaption><strong>Fig. 1.</strong> The high-level processing pipeline of Nginx-Narrator, illustrating the sequential transformation of raw server logs into semantic UX narratives through parsing, reconstruction, scoring, and LLM-based generation.</figcaption></figure>",
+          "",
+          "### A. Stage 1: High-Throughput Parsing and ECS Alignment",
+          "",
+          "The first stage ingests raw text-based Nginx logs. To avoid the computational overhead of neural parsers [9], we utilize highly optimized Regular Expressions for field extraction. To ensure compatibility with modern data stacks, the extracted fields are mapped to the Elastic Common Schema [8].",
+          "",
+          "### B. Stage 2: Heuristic Sessionization",
+          "",
+          "Since server logs are stateless, individual requests must be grouped into sessions to reconstruct the user path [2]. We define a unique user by applying the function *f* to a composite key consisting of the *client IP*, *OS family*, and *browser family*.",
+          "",
+          "<p class=\"equation\"><span>UniqueUser = f (Client_IP, OS_Family, Browser_Family)</span><span>(1)</span></p>",
+          "",
+          "Following industry standards [14, 6], a session is terminated if there is an inactivity period exceeding 30 minutes. This process transforms a flat list of events into a temporal journey object, which serves as the primary data structure for the scoring engine.",
+          "",
+          "### C. Stage 3: The UX Friction Triage Engine (Scoring Logic)",
+          "",
+          "Sending millions of sessions to a Large Language Model is neither cost-effective nor computationally feasible. We introduce a Triage Stage that evaluates each session using a weighted UX Friction Score (S). The scoring engine analyzes the session for behavioral patterns indicative of frustration. The total score S for a session is calculated as (2):",
+          "",
+          "<p class=\"equation\"><span><em>S</em> = ∑ (<em>W<sub>i</sub></em> × <em>C<sub>i</sub></em>)</span><span>(2)</span></p>",
+          "",
+          "Where *W<sub>i</sub>* represents the weight of a specific friction behavior and *C<sub>i</sub>* is the count of its occurrence within the session. Based on our empirical analysis of the Zanbil dataset, we defined the following weights (Table I). The scoring weights were empirically tuned based on a pilot review of 50 random sessions to align with standard UX severity levels (Low, Medium, Critical).",
+          "",
+          "<p class=\"tbl-caption\"><strong>Table I.</strong> UX friction scoring weights</p>",
+          "",
+          "| Behavior Category | Pattern Description | Weight |",
+          "| --- | --- | ---: |",
+          "| Error Encounter | Successive 4xx or 5xx status codes | 5 |",
+          "| Navigation Loop | Oscillating between pages (A → B → A) | 10 |",
+          "| Dead-End | Session termination immediately after a 404 error | 15 |",
+          "| Abnormal Latency | Response time > 2σ from the global mean | 8 |",
+          "",
+          "### D. Stage 4: Semantic Narration via LLM",
+          "",
+          "The prioritized sessions are converted into a compressed JSON format and sent to the Large Language Model. The choice of this specific model is critical; UX narratives require a deep understanding of the long-tail interactions.",
+          "",
+          "- **Massive Context Handling:** Unlike previous models that were limited to 32k or 128k tokens [10], Gemini's million-token window allows us to feed interaction histories that span several hours without loss of context.",
+          "- **Prompt Engineering:** We employ a Zero-Shot Task-Specific Prompt that assigns the LLM the role of a Senior UX Researcher. The model is tasked with three objectives: (1) infer the user's probable intent, (2) identify the exact moment the friction occurred, and (3) suggest a concrete UI/UX improvement (e.g., \"Add a product comparison tool\").",
+          "",
+          "## IV. Experimental Evaluation",
+          "",
+          "To demonstrate the efficacy of Nginx-Narrator, we conducted an extensive evaluation using a massive real-world dataset. This section presents the quantitative scale of the analysis and provides a qualitative deep-dive into the AI-generated narratives.",
+          "",
+          "### A. Dataset and Experimental Setup",
+          "",
+          "The framework was tested on the Zanbil e-commerce dataset, which contains over 10 million raw log entries [19]. The logs were processed on a commodity CPU environment using the hybrid triage pipeline. For the semantic narration task, we utilized Google's Gemini 1.5 Pro (preview build) to leverage its extended context window, configured with a high-temperature setting (0.7) to encourage descriptive storytelling while maintaining factual grounding in the session data.",
+          "",
+          "### B. Quantitative Results: Scaling UX Audit",
+          "",
+          "The pipeline successfully transformed millions of unstructured lines into structured user journeys. Table II summarizes the key performance indicators (KPIs) of the website's UX health identified during the test period.",
+          "",
+          "<p class=\"tbl-caption\"><strong>Table II.</strong> Summary of website UX performance metrics</p>",
+          "",
+          "| Metric | Value |",
+          "| --- | ---: |",
+          "| Total Human Sessions | 321,997 |",
+          "| Avg. Session Duration (sec) | 162.22 |",
+          "| Sessions with Broken Links | 8,104 |",
+          "| Sessions with Server Errors | 606 |",
+          "",
+          "The automated triage identified 8,104 sessions where users encountered dead-ends (broken links). While traditional tools would only report this as a 404 count, Nginx-Narrator prioritizes these sessions for narrative reconstruction to understand the context of the failure.",
+          "",
+          "### C. Qualitative Analysis: Storytelling User Friction",
+          "",
+          "The primary contribution of Nginx-Narrator is its ability to bridge the gap between technical status codes and human intent. We present two representative case studies extracted from the system's dashboard (Fig. 2 and Fig. 3).",
+          "",
+          "#### 1) Case Study 1: Information Seeking",
+          "",
+          "In this session, the system identified a user labeled as a *Deep Explorer* who was struggling with delivery information.",
+          "",
+          "- **The Narrative:** The AI inferred that the user was likely looking for express delivery eligibility. However, instead of finding a clear Call-to-Action (CTA), the user was trapped in a loop between delivery pages and settings/logo pages.",
+          "- **UX Insight:** The LLM correctly identified that this repetitive navigation led to mental fatigue and increased cognitive load.",
+          "- **Actionable Advice:** The model proposed a specific design intervention: redesigning the delivery information page to include clear, visible CTAs for order selection.",
+          "",
+          "<figure><img src=\"/papers/nginx-narrator/fig2-case-study-1.jpg\" alt=\"Nginx-Narrator dashboard: list of targeted Deep_Explorer sessions and the AI-generated analysis of a session looking for express delivery information\" width=\"1060\" height=\"495\" loading=\"lazy\"><figcaption><strong>Fig. 2.</strong> Case Study 1 – Cognitive Load Identification: the semantic narrative generated for a \"Deep Explorer\" session. The system correctly identifies mental fatigue caused by navigational loops and suggests a specific design intervention to clarify Call-to-Action (CTA) elements.</figcaption></figure>",
+          "",
+          "#### 2) Case Study 2: Navigational Loops",
+          "",
+          "The triage engine flagged this session due to high looping behavior.",
+          "",
+          "- **The Narrative:** The user was attempting to compare different products but could not find a native comparison feature. The log sequence showed multiple transitions between product detail pages and general filter pages.",
+          "- **UX Insight:** The AI narration highlighted a sense of being lost in the website structure.",
+          "- **Actionable Advice:** The framework suggested implementing a Compare Products feature directly on the product list, demonstrating how raw logs can drive specific product roadmap decisions.",
+          "",
+          "<figure><img src=\"/papers/nginx-narrator/fig3-case-study-2.jpg\" alt=\"Nginx-Narrator dashboard: list of Confused_User sessions and the AI-generated analysis of a user trying to compare products\" width=\"1060\" height=\"495\" loading=\"lazy\"><figcaption><strong>Fig. 3.</strong> Case Study 2 – Navigational Loop Analysis: identification of a Confused User pattern. The AI narrative explains why behind the interaction failure there is a lack of native product comparison features validating the insight against established usability standards.</figcaption></figure>",
+          "",
+          "#### 3) Theoretical Validation of AI Narratives",
+          "",
+          "The diagnostic accuracy of the generated narratives is supported by fundamental principles of usability and cognitive psychology. The identification of navigation loops and information search friction by AI is directly aligned with established UX frameworks. In particular, the frustration identified in Case Study 1 is consistent with Norman's [22] theory of the evaluation bay, where poor signage and complex site structures force users to perform repetitive actions, leading to high cognitive strain. Furthermore, the AI's emphasis on eliminating navigation loops reflects Krug's [23] core philosophy that web interfaces should be intuitive enough to not require the user to think. By basing its semantic interpretations on these classic design rules, Nginx-Narrator demonstrates a sophisticated ability to detect violations of usability standards directly from server-side telemetry data, acting as an automated expert system.",
+          "",
+          "### D. Performance Analysis",
+          "",
+          "By employing the triage logic discussed in Section III, Nginx-Narrator achieved a 99.8% reduction in data noise. Only sessions with critical friction scores were processed by the LLM. This hybrid approach allowed for high-throughput processing (over 10,000 lines/sec in the parsing stage) while maintaining the deep analytical quality of Gemini 1.5 Pro for prioritized sessions.",
+          "",
+          "### E. Comparative Analysis: Cloud vs. Local Inference",
+          "",
+          "To address data sovereignty concerns and operational costs in enterprise environments, we conducted a benchmark comparison between the cloud-based Gemini 1.5 Pro and a locally deployed Qwen-2.5-7B model. The local model was quantized to 4-bit precision using the GGUF format to enable execution on standard commodity CPUs without requiring high-end GPUs.",
+          "",
+          "<p class=\"tbl-caption\"><strong>Table III.</strong> Cost–performance trade-off</p>",
+          "",
+          "| Model | Deployment | Latency | Cost | Data Privacy | Narrative Quality |",
+          "| --- | --- | --- | --- | --- | --- |",
+          "| Gemini 1.5 Pro | Cloud API | ~2.5 s | Paid | Shared with provider | High |",
+          "| Qwen2.5-7B (4-bit) | Local CPU | ~50.0 s | Zero | 100% private | Medium |",
+          "",
+          "As shown in Table III, while Gemini offers superior narrative coherence for complex user journeys, the local Qwen model provides a viable alternative for highly sensitive data where privacy is paramount. Although the local inference latency is higher (~50 s), it eliminates data leakage risks and API costs, making it suitable for batched, overnight processing in secure air-gapped environments. While the local model cannot match the narrative depth of the cloud model, it serves as a privacy-preserving baseline.",
+          "",
+          "## V. Discussion and Limitations",
+          "",
+          "The transition from quantitative log aggregation to qualitative narrative generation marks a significant shift in server-side analytics. Traditional methods often dehumanize data into metrics like \"bounce rate\" or \"404 count.\" Nginx-Narrator re-humanizes this data by reconstructing the \"why\" behind these metrics.",
+          "",
+          "### A. Privacy and Data Sovereignty",
+          "",
+          "Data privacy remains an important consideration when applying LLM-based analytics to server logs, particularly due to the potential exposure of Personally Identifiable Information (PII). In our implementation, Gemini 1.5 Pro was accessed through an external API; therefore, additional safeguards were introduced to reduce privacy risks.",
+          "",
+          "First, a data masking step was applied during pre-processing to remove or obfuscate sensitive parameters before any external transmission. Second, the framework also supports fully local deployment. As described in Section III, quantized models such as Qwen-7B in GGUF format can be executed on commodity CPUs, enabling on-premise inference. This configuration allows interaction data to remain within the organization's infrastructure when external API usage is not acceptable.",
+          "",
+          "### B. Limitations",
+          "",
+          "Despite its advantages, Nginx-Narrator has several limitations. First, session reconstruction relies on a heuristic that combines IP address and User-Agent information. In environments with extensive NAT usage, such as mobile networks, this method may lead to inaccuracies in distinguishing individual users. Where privacy regulations permit, future iterations of the framework could incorporate cookie-based identifiers to improve session precision.",
+          "",
+          "Second, although Gemini supports a large context window, sessions containing thousands of requests still require summarization to remain computationally efficient. Further work will explore adaptive strategies for condensing long interaction sequences while preserving behavioral signals relevant to UX analysis.",
+          "",
+          "Third, the evaluation was conducted on a historical dataset (Zanbil, 2019) [19]. Due to the temporal gap and subsequent changes in the platform's interface, direct validation through user interviews or synchronized screen recordings was not feasible. Consequently, the identification of friction events is based on heuristic consistency with established UX principles rather than contemporaneous user feedback.",
+          "",
+          "## VI. Conclusion",
+          "",
+          "This paper presented Nginx-Narrator, a hybrid framework aimed at connecting low-level server logs with UX-oriented analysis. By combining deterministic parsing techniques with large language models capable of interpreting extended interaction contexts, the framework demonstrates that raw server logs can be reorganized into structured narratives that capture patterns related to user intent and potential friction points.",
+          "",
+          "The evaluation was conducted on a dataset of 10 million log entries, through which more than 8,000 high-friction user journeys were identified. The results suggest that server-side logs can serve as a practical and scalable source of behavioral insight, particularly in environments where client-side tracking is limited, blocked, or unreliable.",
+          "",
+          "Future work will explore the integration of Retrieval-Augmented Generation (RAG) to support interactive querying over historical log data, enabling UX teams to examine past interaction patterns through natural language interfaces and refine design decisions based on accumulated behavioral evidence.",
+          "",
+          "## References",
+          "",
+          "<ol class=\"references\">",
+          "<li>OWASP Foundation, \"OWASP Top 10:2021,\" The Open Web Application Security Project, 2021. [Online]. Available: <a href=\"https://owasp.org/Top10/\">https://owasp.org/Top10/</a>. [Accessed: Sept. 2025]</li>",
+          "<li>J. Srivastava, R. Cooley, M. Deshpande, and P.-N. Tan, \"Web usage mining: Discovery and applications of usage patterns from web data,\" <em>SIGKDD Explor. Newsl.</em>, vol. 1, no. 2, pp. 12–23, Jan. 2000.</li>",
+          "<li>NGINX, \"Module ngx_http_log_module,\" <em>NGINX Documentation</em>, 2023. [Online]. Available: <a href=\"http://nginx.org/en/docs/http/ngx_http_log_module.html\">http://nginx.org/en/docs/http/ngx_http_log_module.html</a>. [Accessed: Sept. 2025]</li>",
+          "<li>NGINX, \"Beginner's Guide,\" <em>NGINX Documentation</em>, 2023. [Online]. Available: <a href=\"http://nginx.org/en/docs/beginners_guide.html\">http://nginx.org/en/docs/beginners_guide.html</a>. [Accessed: Sept. 2025]</li>",
+          "<li>K. Groves, \"The limitations of server log files for usability analysis,\" User Centered Design, 2007. [Online]. Available: <a href=\"http://www.user-centereddesign.com\">http://www.user-centereddesign.com</a>. [Accessed: Sept. 2025]</li>",
+          "<li>K. R. Suneetha and D. R. Krishnamoorthi, \"Identifying user behavior by analyzing web server access log file,\" <em>Int. J. Comput. Sci. Netw. Secur. (IJCSNS)</em>, vol. 9, no. 12, pp. 327–332, Dec. 2009.</li>",
+          "<li>L. Benova and L. Hudec, \"Comprehensive analysis and evaluation of anomalous user activity in web server logs,\" <em>Sensors</em>, vol. 24, no. 3, p. 746, Jan. 2024.</li>",
+          "<li>Elastic, \"Anomaly detection with machine learning,\" <em>Elasticsearch Guide 8.11</em>, 2023. [Online]. Available: <a href=\"https://www.elastic.co/guide/en/machine-learning/8.11/ml-ad-overview.html\">https://www.elastic.co/guide/en/machine-learning/8.11/ml-ad-overview.html</a>. [Accessed: Sept. 2025]</li>",
+          "<li>Van-Hoang Le et al., \"Log parsing: How far can ChatGPT go?\" in <em>Proc. 38th IEEE/ACM Int. Conf. Autom. Softw. Eng. (ASE)</em>, Luxembourg, 2023, pp. 838–849.</li>",
+          "<li>P. Sahoo et al., \"A systematic survey of prompt engineering in large language models,\" arXiv preprint arXiv:2402.07927, 2024.</li>",
+          "<li>P. He, J. Zhu, Z. Zheng, and M. R. Lyu, \"Drain: An online log parsing approach with fixed depth tree,\" in <em>Proc. IEEE Int. Conf. Web Serv. (ICWS)</em>, Honolulu, HI, USA, 2017, pp. 33–40.</li>",
+          "<li>J. E. Friedl, <em>Mastering Regular Expressions</em>, 3rd ed. Sebastopol, CA, USA: O'Reilly Media, 2006.</li>",
+          "<li>S. He et al., \"A survey on automated log analysis for reliability engineering,\" <em>ACM Comput. Surv.</em>, vol. 54, no. 6, pp. 1–37, Jul. 2021.</li>",
+          "<li>T. C. Menezes and B. Nonnecke, \"UX-Log: Understanding website usability through recreating users' experiences in logfiles,\" <em>Int. J. Virtual Worlds Hum. Comput. Interact.</em>, vol. 2, 2014, doi: 10.11159/vwhci.2014.006.</li>",
+          "<li>G. Gerganov, \"llama.cpp,\" GitHub repository, 2023. [Online]. Available: <a href=\"https://github.com/ggerganov/llama.cpp\">https://github.com/ggerganov/llama.cpp</a>. [Accessed: Sept. 2025]</li>",
+          "<li>T. Dettmers, A. Pagnoni, A. Holtzman, and L. Zettlemoyer, \"QLoRA: Efficient finetuning of quantized LLMs,\" in <em>Proc. Adv. Neural Inf. Process. Syst. (NeurIPS)</em>, vol. 36, New Orleans, LA, USA, 2023, pp. 4836–4861.</li>",
+          "<li>T. Zhang et al., \"System log parsing: A survey,\" <em>IEEE Trans. Knowl. Data Eng.</em>, vol. 36, no. 5, pp. 1826–1846, May 2023.</li>",
+          "<li>L. G. de Vasconcelos et al., \"Classifying user experience of web applications in real time using client logs,\" in <em>Proc. 23rd Int. Conf. World Wide Web (WWW '14 Companion)</em>, Seoul, Korea, 2014, pp. 1125–1130.</li>",
+          "<li>E. Dabbas, \"Web server access logs,\" Kaggle Datasets, 2021. [Online]. Available: <a href=\"https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs\">https://www.kaggle.com/datasets/eliasdabbas/web-server-access-logs</a>. [Accessed: Sept. 2025]</li>",
+          "<li>M. T. Nguyen et al., \"Analyzing and visualizing web server access log file,\" in <em>Proc. Future Data and Security Engineering (FDSE)</em>, T. K. Dang et al., Eds., Cham: Springer, 2018, pp. 317–324.</li>",
+          "<li>T. F. Bissyandé et al., \"Got issues? Who cares about it? A large scale investigation of issue trackers from GitHub,\" in <em>Proc. 24th Int. Symp. Softw. Rel. Eng. (ISSRE)</em>, Pasadena, CA, USA, 2013, pp. 188–197.</li>",
+          "<li>D. Norman, <em>The Design of Everyday Things: Revised and Expanded Edition</em>. New York, NY, USA: Basic Books, 2013.</li>",
+          "<li>S. Krug, <em>Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability</em>, 3rd ed. Berkeley, CA, USA: New Riders, 2014.</li>",
+          "</ol>",
+          "",
+          "<p class=\"paper-copyright\">© 2026 IEEE. 979-8-3315-9278-3/26/$31.00. Reproduced here for personal and academic reference.</p>"
+        ],
+        "fa": [
+          "<p class=\"lang-note\">این صفحه خلاصه‌ای فارسی از مقاله است. <a href=\"/articles/nginx-narrator\">متن کامل انگلیسی مقاله</a> با تمام شکل‌ها، جدول‌ها و منابع در دسترس است و می‌توانید <a href=\"/papers/nginx-narrator.pdf\" download>فایل PDF</a> را نیز دریافت کنید.</p>",
+          "",
+          "بیشتر ابزارهای تحلیل تجربهٔ کاربری در مرورگر اجرا می‌شوند؛ یعنی به اسکریپتی وابسته‌اند که باید بارگذاری شود، اجرا شود و داده را ارسال کند. هر افزونهٔ ضدتبلیغ، هر تنظیم حریم خصوصی و هر صفحه‌ای که پیش از بارگذاری کامل از کار بیفتد، شکافی در این داده‌ها ایجاد می‌کند. در مقابل، سرور **همهٔ درخواست‌ها** را می‌بیند.",
+          "",
+          "در مقالهٔ ICWR ۲۰۲۶ پرسشی ساده مطرح کردیم: *آیا می‌توان از همان لاگ‌های دسترسی موجود، بینش معناداری دربارهٔ تجربهٔ کاربری استخراج کرد؟*",
+          "",
+          "## شکاف معنایی",
+          "",
+          "لاگ‌های سرور قابل اعتمادند، اما خوانا نیستند: بدون ساختار، بسیار حجیم و بی‌اطلاع از نیت کاربر. خطای `404` می‌گوید منبعی پیدا نشد، اما نمی‌گوید خریداری چهار دقیقه میان دو دسته‌بندی رفت‌وبرگشت کرد و در نهایت منصرف شد.",
+          "",
+          "کاوش استفادهٔ وب به پرسش «کاربر *چه* کرد» پاسخ می‌دهد و تشخیص ناهنجاری به پرسش «*چه کسی* ربات است». هیچ‌کدام نمی‌گویند *چرا* یک کاربر واقعی گیر کرد.",
+          "",
+          "## پایپ‌لاین ترکیبی چهارمرحله‌ای",
+          "",
+          "تصمیم کلیدی این بود که همه‌چیز را به LLM **نسپاریم**: کد قطعی حجم داده را مدیریت می‌کند و مدل زبانی معنا را.",
+          "",
+          "1. **پارس و هم‌ترازی با ECS.** لاگ‌های Nginx قالب مشخصی دارند؛ بنابراین عبارات منظم بهینه‌شده از نظر سرعت و شفافیت از پارسرهای عصبی بهترند. فیلدها به Elastic Common Schema نگاشت می‌شوند.",
+          "2. **نشست‌سازی ابتکاری.** درخواست‌ها با کلید ترکیبی IP، خانوادهٔ سیستم‌عامل و خانوادهٔ مرورگر گروه‌بندی می‌شوند و پس از ۳۰ دقیقه عدم فعالیت، نشست بسته می‌شود.",
+          "3. **امتیازدهی اصطکاک UX.** برای هر نشست امتیاز وزن‌دار `S = Σ (Wᵢ × Cᵢ)` بر اساس سیگنال‌های رفتاری محاسبه می‌شود.",
+          "4. **روایت‌سازی معنایی.** تنها نشست‌های پرامتیاز به JSON فشرده تبدیل و به مدلی با زمینهٔ بلند سپرده می‌شوند که نقش یک پژوهشگر ارشد UX را دارد.",
+          "",
+          "| سیگنال | الگو | وزن |",
+          "| --- | --- | ---: |",
+          "| مواجهه با خطا | پاسخ‌های پیاپی 4xx یا 5xx | ۵ |",
+          "| تأخیر غیرعادی | زمان پاسخ بیش از ۲σ از میانگین | ۸ |",
+          "| حلقهٔ ناوبری | رفت‌وبرگشت A → B → A | ۱۰ |",
+          "| بن‌بست | پایان نشست بلافاصله پس از 404 | ۱۵ |",
+          "",
+          "## چرا زمینهٔ بلند مهم است",
+          "",
+          "پژوهش‌های پیشین ناچار بودند نشست‌ها را برای پنجره‌های ۳۲ یا ۱۲۸ هزار توکنی کوتاه کنند و این کار درست در لحظهٔ حساس، روایت را قطع می‌کرد. با پنجرهٔ یک‌میلیون‌توکنی (Gemini 1.5 Pro) یک سفر چندساعته به‌طور کامل جا می‌شود و مدل می‌تواند نیت احتمالی کاربر را استنباط کند، لحظهٔ دقیق اصطکاک را مشخص کند و یک بهبود مشخص در رابط کاربری پیشنهاد دهد.",
+          "",
+          "> ابزارهای سنتی یک بن‌بست را فقط به‌عنوان شمارش 404 گزارش می‌کنند؛ Nginx-Narrator آن را آخرین سطر داستانی می‌داند که ارزش خواندن دارد.",
+          "",
+          "## نتایج",
+          "",
+          "روی دیتاستی واقعی از یک فروشگاه اینترنتی با **۱۰ میلیون رکورد لاگ**، **۳۲۱٬۹۹۷ نشست انسانی** بازسازی شد؛ **۸٬۱۰۴ نشست** با بن‌بست لینک شکسته و **۶۰۶ نشست** با خطای سرور شناسایی شدند و حجم داده‌ای که نیاز به بازبینی دستی داشت حدود **۹۸٪** کاهش یافت.",
+          "",
+          "## محدودیت‌ها و گام‌های بعدی",
+          "",
+          "لاگ‌های سمت سرور حرکت نشانگر یا توجه بصری را نمی‌بینند و این چارچوب چنین ادعایی ندارد. با این حال نتایج نشان می‌دهد بخش بزرگی از سیگنال UX همین حالا در زیرساخت شما وجود دارد؛ بدون ردیابی اضافه و بدون هزینهٔ حریم خصوصی. معماری پیشنهادی امکان استفاده از مدل‌های محلی کوانتیزه‌شده را هم فراهم می‌کند تا لاگ‌های حساس هرگز از سازمان خارج نشوند.",
+          "",
+          "*متن کامل مقاله در مجموعه‌مقالات دوازدهمین کنفرانس بین‌المللی پژوهش‌های وب (ICWR) در IEEE Xplore منتشر شده است.*"
+        ]
+      },
+      "pdf": "/papers/nginx-narrator.pdf"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "quera-recsys",
+      "type": "certificate",
+      "title": {"en": "Recommender Systems", "fa": "سیستم‌های توصیه‌گر"},
+      "issuer": {"en": "Quera", "fa": "کوئرا"},
+      "detail": {"en": "Grade: Perfect", "fa": "نمره: عالی"}
+    },
+    {
+      "id": "quera-algo",
+      "type": "certificate",
+      "title": {"en": "Advanced Algorithms & Data Structures", "fa": "الگوریتم‌ها و ساختمان داده‌های پیشرفته"},
+      "issuer": {"en": "Quera", "fa": "کوئرا"},
+      "detail": {"en": "Grade: Perfect", "fa": "نمره: عالی"}
+    },
+    {
+      "id": "quera-seo",
+      "type": "certificate",
+      "title": {"en": "SEO (Search Engine Optimization)", "fa": "بهینه‌سازی موتور جست‌وجو (SEO)"},
+      "issuer": {"en": "Quera", "fa": "کوئرا"},
+      "detail": {"en": "Grade: Perfect", "fa": "نمره: عالی"}
+    },
+    {
+      "id": "quera-1404",
+      "type": "honor",
+      "title": {
+        "en": "Ranked 24th — Quera Goodbye 1404 Algorithmic Contest",
+        "fa": "رتبهٔ ۲۴ — مسابقهٔ الگوریتمی خداحافظ ۱۴۰۴ کوئرا"
+      },
+      "issuer": {"en": "Quera", "fa": "کوئرا"}
+    },
+    {
+      "id": "divar-ai",
+      "type": "honor",
+      "title": {"en": "Ranked 95th — Divar AI Challenge", "fa": "رتبهٔ ۹۵ — چالش هوش مصنوعی دیوار"},
+      "issuer": {"en": "Divar", "fa": "دیوار"}
+    }
+  ],
+  "ui": {},
+  "resumeOverrides": {
+    "common": {
+      "resume": {
+        "fileName": "Mohammad-Kazem-Harandi-Resume",
+        "pageSize": "A4",
+        "sections": [
+          "summary",
+          "skills",
+          "experience",
+          "publications",
+          "projects",
+          "education",
+          "achievements",
+          "teaching",
+          "leadership"
+        ],
+        "limits": {"projects": 5},
+        "minScale": 0.76
+      },
+      "projects": {"$only": ["jarvis", "crm-analytics", "explain-banker", "fake-news", "web-storage"]},
+      "publications": {
+        "$patch": {
+          "nginx-narrator": {"title": "Nginx-Narrator: LLM-Based Automated Nginx Log Analysis for UX Friction Detection"},
+          "oxford-vocabulary-dataset": {
+            "bullets": {
+              "en": [
+                "Curated an English vocabulary dataset (IPA, CEFR-style levels, collocations, usage notes, examples; CC BY-SA 4.0) powering the Memento vocabulary app (memento-words.ir)."
+              ],
+              "fa": [
+                "گردآوری دیتاست واژگان انگلیسی (IPA، سطح دشواری، همایندها، نکات کاربردی و جملات نمونه؛ مجوز CC BY-SA 4.0)، پشتوانهٔ اپلیکیشن یادگیری واژگان Memento (memento-words.ir)."
+              ]
+            }
+          }
+        }
+      },
+      "education": {
+        "$patch": {"msc": {"gpa": {"value": "17.65", "scale": "20.0"}}, "bsc": {"gpa": {"value": "16.64", "scale": "20.0"}}}
+      }
+    },
+    "en": {"personal": {"role": "AI LLM Specialist"}},
+    "fa": {}
+  }
+}

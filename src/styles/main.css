@@ -1,0 +1,394 @@
+@import 'tailwindcss';
+
+/* ── Fonts (self-hosted, subset, variable) ─────────────────────────────── */
+@import '@fontsource-variable/geist';
+@import '@fontsource-variable/geist-mono';
+@import '@fontsource-variable/newsreader';
+@import '@fontsource-variable/newsreader/wght-italic.css';
+@import '@fontsource-variable/vazirmatn';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ── Design tokens ─────────────────────────────────────────────────────── */
+:root {
+  --bg: #fbfbf9;
+  --bg-elev: #ffffff;
+  --fg: #14161a;
+  --fg-muted: #555a64;
+  --fg-subtle: #878c96;
+  --line: #e4e5e1;
+  --line-strong: #cdcfca;
+  --accent: #2443c4;
+  --accent-fg: #ffffff;
+  --accent-soft: color-mix(in oklab, var(--accent) 10%, transparent);
+  --grid: color-mix(in oklab, var(--fg) 6%, transparent);
+  --shadow: 0 1px 0 rgb(0 0 0 / 0.02), 0 8px 24px -12px rgb(0 0 0 / 0.08);
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0c0d10;
+  --bg-elev: #13151a;
+  --fg: #e9eaee;
+  --fg-muted: #9ea3ae;
+  --fg-subtle: #6b707b;
+  --line: #22252c;
+  --line-strong: #323640;
+  --accent: #8fa6ff;
+  --accent-fg: #0c0d10;
+  --grid: color-mix(in oklab, var(--fg) 5%, transparent);
+  --shadow: 0 1px 0 rgb(255 255 255 / 0.02), 0 12px 32px -16px rgb(0 0 0 / 0.6);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-elev: var(--bg-elev);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-subtle: var(--fg-subtle);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-soft: var(--accent-soft);
+
+  --font-sans: var(--font-body);
+  --font-mono: 'Geist Mono Variable', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-serif: var(--font-display);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root {
+  --font-body: 'Geist Variable', 'Vazirmatn Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Newsreader Variable', Georgia, 'Times New Roman', serif;
+}
+:root[lang='fa'] {
+  --font-body: 'Vazirmatn Variable', 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+  /* Newsreader has no Persian glyphs: use the body face. */
+  --font-display: 'Vazirmatn Variable', serif;
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-bg text-fg font-sans antialiased;
+    font-feature-settings: 'ss01', 'cv11';
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  :root[lang='fa'] body {
+    font-feature-settings: normal;
+    line-height: 1.75;
+  }
+  ::selection {
+    background: var(--accent);
+    color: var(--accent-fg);
+  }
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* ── Components ────────────────────────────────────────────────────────── */
+@layer components {
+  .container-page {
+    @apply mx-auto w-full max-w-[1120px] px-5 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply text-[0.74rem] font-medium tracking-[0.12em] text-subtle uppercase;
+  }
+  /* Headings set in the serif for an editorial / academic voice. */
+  .heading-serif {
+    @apply font-serif font-normal tracking-[-0.015em];
+    font-optical-sizing: auto;
+  }
+  :root[lang='fa'] .heading-serif {
+    @apply font-sans font-semibold tracking-normal;
+  }
+  :root[lang='fa'] .eyebrow {
+    @apply font-sans text-[0.8rem] tracking-normal normal-case;
+  }
+
+  .display-accent {
+    @apply font-serif italic;
+  }
+  :root[lang='fa'] .display-accent {
+    @apply font-sans not-italic;
+  }
+
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    transition: background-size 0.4s var(--ease-out-expo), color 0.2s ease;
+  }
+  .link-underline:hover,
+  .link-underline:focus-visible {
+    background-size: 100% 1px;
+    background-position: 0% 100%;
+  }
+  [dir='rtl'] .link-underline {
+    background-position: 0% 100%;
+  }
+  [dir='rtl'] .link-underline:hover {
+    background-position: 100% 100%;
+  }
+
+  .card {
+    @apply rounded-xl border border-line bg-elev;
+    transition: border-color 0.25s ease, transform 0.35s var(--ease-out-expo), box-shadow 0.35s ease;
+  }
+  .card-interactive:hover {
+    @apply border-line-strong;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-md border border-line px-2 py-0.5 font-mono text-[0.72rem] text-muted;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+  }
+  :root[lang='fa'] .chip {
+    @apply font-sans text-[0.78rem];
+  }
+
+  .btn {
+    @apply inline-flex h-10 items-center gap-2 rounded-lg px-4 text-sm font-medium select-none;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .btn-primary {
+    @apply bg-fg text-bg hover:bg-accent hover:text-accent-fg;
+  }
+  .btn-ghost {
+    @apply border border-line text-fg hover:border-line-strong hover:bg-elev;
+  }
+
+  .icon-btn {
+    @apply inline-flex size-9 items-center justify-center rounded-lg text-muted hover:bg-elev hover:text-fg;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Arrow that nudges in the reading direction on hover */
+  .arrow {
+    transition: transform 0.3s var(--ease-out-expo);
+  }
+  .group:hover .arrow {
+    transform: translateX(3px);
+  }
+  [dir='rtl'] .arrow {
+    transform: scaleX(-1);
+  }
+  [dir='rtl'] .group:hover .arrow {
+    transform: scaleX(-1) translateX(3px);
+  }
+  .group:hover .arrow-diag {
+    transform: translate(2px, -2px);
+  }
+  [dir='rtl'] .arrow-diag {
+    transform: scaleX(-1);
+  }
+  [dir='rtl'] .group:hover .arrow-diag {
+    transform: scaleX(-1) translate(2px, -2px);
+  }
+
+}
+
+/* ── Reveal on scroll (only when JS is running; content is visible without it) ── */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .js [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Locale switch cross-fade */
+.page-fade-enter-active,
+.page-fade-leave-active {
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+.page-fade-enter-from {
+  opacity: 0;
+  transform: translateY(4px);
+}
+.page-fade-leave-to {
+  opacity: 0;
+}
+
+/* Status pulse */
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.6; }
+  80%, 100% { transform: scale(2.4); opacity: 0; }
+}
+.pulse-dot::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: currentColor;
+  animation: pulse-ring 2.2s cubic-bezier(0.2, 0.6, 0.4, 1) infinite;
+}
+
+
+/* ── Article prose ─────────────────────────────────────────────────────── */
+.prose-article {
+  @apply text-[1.0625rem] leading-[1.8] text-fg/90;
+}
+.prose-article > * + * {
+  margin-top: 1.25em;
+}
+.prose-article h2 {
+  @apply mt-14 mb-4 font-serif text-[1.75rem] font-normal tracking-tight text-fg;
+}
+.prose-article h3 {
+  @apply mt-10 mb-3 text-xl font-semibold text-fg;
+}
+.prose-article a {
+  @apply text-fg underline decoration-line-strong underline-offset-4 hover:decoration-accent;
+}
+.prose-article strong {
+  @apply font-semibold text-fg;
+}
+.prose-article ul,
+.prose-article ol {
+  @apply ps-6;
+}
+.prose-article ul {
+  list-style: disc;
+}
+.prose-article ol {
+  list-style: decimal;
+}
+:root[lang='fa'] .prose-article ol {
+  list-style: persian;
+}
+.prose-article li {
+  @apply my-2 ps-1;
+}
+.prose-article li::marker {
+  @apply text-subtle;
+}
+.prose-article blockquote {
+  @apply border-s-2 border-accent ps-5 font-serif text-2xl leading-snug text-fg italic;
+}
+:root[lang='fa'] .prose-article h2 {
+  @apply font-sans text-2xl font-semibold;
+}
+:root[lang='fa'] .prose-article blockquote {
+  @apply text-xl not-italic font-medium;
+}
+.prose-article code {
+  @apply rounded border border-line bg-elev px-1.5 py-0.5 font-mono text-[0.86em];
+}
+.prose-article pre {
+  @apply overflow-x-auto rounded-xl border border-line bg-elev p-5 text-sm leading-relaxed;
+}
+.prose-article pre code {
+  @apply border-0 bg-transparent p-0;
+}
+.prose-article table {
+  @apply block w-full overflow-x-auto text-[0.95rem] md:table;
+  border-collapse: collapse;
+}
+.prose-article th {
+  @apply border-b border-line-strong py-2 pe-6 text-start font-mono text-xs font-medium tracking-wider text-subtle uppercase;
+}
+.prose-article td {
+  @apply border-b border-line py-2.5 pe-6 align-top;
+}
+.prose-article hr {
+  @apply my-12 border-line;
+}
+.prose-article img {
+  @apply rounded-xl border border-line;
+}
+
+/* Smooth color crossfade only while toggling theme (avoids transition jank elsewhere). */
+.theme-transition,
+.theme-transition *,
+.theme-transition *::before,
+.theme-transition *::after {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, fill 0.3s ease !important;
+}
+
+/* ── Full-paper elements inside articles (figures, equations, captions, references) ── */
+.prose-article h4 {
+  @apply mt-8 mb-2 text-base font-semibold text-fg;
+}
+.prose-article figure {
+  @apply my-10;
+}
+.prose-article figure img {
+  @apply mx-auto h-auto w-full bg-white;
+}
+.prose-article figure.figure-narrow img {
+  @apply max-w-sm;
+}
+.prose-article figcaption {
+  @apply mt-3 text-sm leading-relaxed text-muted;
+}
+.prose-article .equation {
+  @apply flex items-center justify-between gap-6 rounded-lg border border-line bg-elev px-5 py-3.5 font-serif text-lg;
+}
+.prose-article .equation span:last-child {
+  @apply font-sans text-sm text-subtle tabular-nums;
+}
+.prose-article .tbl-caption {
+  @apply mb-2 text-sm text-muted;
+}
+.prose-article .tbl-caption + table {
+  margin-top: 0.5em;
+}
+.prose-article .paper-meta {
+  @apply rounded-lg border border-line bg-elev px-5 py-4 text-[0.95rem] leading-relaxed text-muted;
+}
+.prose-article .lang-note {
+  @apply rounded-lg border border-line bg-elev px-5 py-4 text-[0.95rem] text-muted;
+}
+.prose-article .references {
+  @apply ps-8 text-[0.9rem] leading-relaxed text-muted;
+  list-style: decimal;
+}
+.prose-article .references li::marker {
+  content: '[' counter(list-item) ']  ';
+}
+.prose-article .references a {
+  word-break: break-all;
+}
+.prose-article .paper-copyright {
+  @apply border-t border-line pt-6 text-xs text-subtle;
+}

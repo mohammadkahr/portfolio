@@ -1,0 +1,28 @@
+# Dependencies and build output
+node_modules/
+dist/
+.vite/
+.vite-ssg-temp/
+
+# Generated resumes (rebuilt from profile.json)
+public/resume/
+.resume-debug/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.local
+*.log
+coverage/
+playwright-report/
+test-results/
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+__MACOSX/
+._*
